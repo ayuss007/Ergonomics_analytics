@@ -1,0 +1,10 @@
+yolo_model: "yolov8n.pt"
+pose_backend: "rtmo_stub"
+confidence_threshold: 0.35
+risk_thresholds:
+  low: 0.25
+  medium: 0.5
+  high: 0.75
+flow:
+  grid_size: 32
+  bottleneck_percentile: 92
